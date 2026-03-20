@@ -1,4 +1,4 @@
-public class basic {
+public class boilerplate {
     public static void main (String[] args){
 
      //boilerplate code
