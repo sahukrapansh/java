@@ -17,7 +17,7 @@ public class userinput {
         // float price = sc.nextFloat();
         // System.out.println(price);
 
-        // code for sum
+        // code
         System.out.println("enter the value of a : ");
         int a = sc.nextInt();
 
@@ -26,6 +26,9 @@ public class userinput {
 
         int sum = a+b;
         System.out.println("sum of a + b is : "+ sum);
+
+        int product = a*b;
+        System.out.println("product is :" + product);
     }
     
 }
