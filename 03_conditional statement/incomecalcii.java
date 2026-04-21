@@ -8,10 +8,10 @@ public class incomecalcii {
         Scanner sc = new Scanner(System.in);
         int income = sc.nextInt();
 
-        if (income == 500000){
+        if (income < 500000){
             System.out.println("taxable ammount 0 ");
         }
-        else if (income > 500000 && income <= 1000000 ) {
+        else if (income >= 500000 && income < 1000000 ) {
             System.out.println("20% taxable ammount = " + (income*(0.2));
         }
         else{
